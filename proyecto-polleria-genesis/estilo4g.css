@@ -1,0 +1,129 @@
+/* Fuentes */
+@font-face {
+  font-family: 'gill sans mt regular';
+  src: url(/fuentes/GILL.TTF)
+}
+/* Clases de estilos para el Body */
+body {
+  font-family: 'gill sans mt regular';
+  background-color: #FEEEE8;
+}
+/* Clases de estilos para los Contenedores de Misión y Visión */
+.mission-contenedor{
+  width: 100%;
+  line-height: 23px;
+  font-size: 200%;
+  color: #333;
+  padding: 10%;
+}
+/* Clases de estilos para las Imágenes de Misión y Visión */
+.vision-contenedor {
+  width: 100%;
+  line-height: 23px;
+  font-size: 200%;
+  color: #333;
+  padding: 10%;
+}
+
+.mission-imagen {
+  display: flex;
+  width: 80%;
+  margin-right: 10px;
+  padding: 90px 50px;
+  
+}
+.vision-imagen {
+  display: flex;
+  width: 80%;
+  margin-right: 10px;
+  padding: 40px 50px;
+  
+}
+/* Clases de estilo para los Párrafos */
+.parrafo{
+  color: #333;
+  margin: 10%;
+}
+/* Clases de estilo para los Títulos */
+.titulo {
+  font-size: 220%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+h3 {
+  display: flex;
+  font-size: 150%;
+  Padding: 5%;
+}
+/* Clases de estilo para el Pie de Página (Footer) */
+footer {
+  background-color: #472D48;
+  font-size: 22px;
+  padding: 50px;
+  border-image: none;
+  border-style: none;
+  margin: 70px 0 0 0;
+}
+
+footer a {
+  color: #fff;
+  font-weight: normal;
+  background-color: #472D48;
+  border-image: none;
+  border-style: none;
+  text-decoration: none;
+}
+
+footer p {
+  color:#FABBA5;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+  background-color: #472D48;
+  border-image: none;
+  border-style: none;
+  color: #fff;
+}
+/* Estilos de Flotación */
+.float {
+  display: flex;
+  justify-content: center;
+  float:inherit;
+}
+
+.float1 {
+  justify-content: center;
+  float:inline-start;
+}
+
+.icons {
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+/* Clases de estilos Responsivos */
+@media (min-width:768px) and (max-width: 1024px) {
+  .mission-contenedor{
+    width: auto;
+    margin: auto;
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .vision-contenedor{
+    width: auto;
+    margin: auto;
+  
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .mission-contenedor .mission-imagen {
+    width: 100%;
+
+  }
+  .mission-contenedor .vision-imagen {
+    width: 100%;
+  }
+}
