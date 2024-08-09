@@ -1,0 +1,62 @@
+
+/* PAGINA COMPLETA */
+
+/* Clase de estilos para toda la página */
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* HEADER */
+
+/* Clases de estilos para el header*/
+  header{background-color:#472D48;color:#fff;padding:1px;display:flex;justify-content:space-between;align-items:center}
+  .nav-ul{list-style:none;display:flex;padding:30px}
+  .nav-li{margin-right:20px}
+  .a{text-decoration:none;color:#F68961;font-size:22px;font-weight:bold}
+  header a:hover{color:#FABBA5}
+  aside{float:right;padding:2px;margin-right:2px}
+  /* BODY */
+/* Clase de estilos para el body*/
+  body{background-color:#FEEEE8}
+
+  /* SWIPER */
+
+  /* Clases de estilos para el Swiper*/
+  .swiper{width:100%;height:60vh}
+  .img-1{background-image:url(img/pollos-brasa.jpg)}
+  .img-2{background-image:url(img/pollo-slider.jpg)}
+  .img-3{background-image:url(img/combo-pollo.jpg)}
+  .swiper-slide{background-size:cover;background-position:center center}
+  .swiper-button-prev,.swiper-button-next{color:white;text-shadow:1px 1px 5px #0000006c}
+
+/* COMBOS */
+
+  /* Clases de estilos para la sección de los combos */
+  .combos{font-size:35px;font-weight:bold;padding:80px;color:#472D48;align-items:center}
+
+  /* Clases de estilos para las imagenes de la seccción de combos */
+  .combos-img{border-radius:24px;stroke:#0000;filter:contrast(110%);border-style:solid;border-image:3cm;border-image-width:3cm;box-shadow:0 8px 8px 0 #0000006c;margin:20px}
+  
+  /* Clases de estilos para los titulos de la seccción de Ubicación */
+  .ubicacion-text{font-size:35px;font-weight:bold;padding:80px;color:#472D48;align-items:center}
+  h3{color:#918191}
+
+  /* MAPA */
+  .mapa{width:40%;box-shadow:0 8px 8px 0 #0000006c}
+
+/* FOOTER */
+  /* Clases de estilos para el footer*/
+  footer{background-color:#472D48;font-size:22px;padding:50px;border-image:none;border-style:none}
+  footer a{color:#fff;font-weight:normal;background-color:#472D48;border-image:none;border-style:none;text-decoration:none}
+  footer p{color:#FABBA5;font-size:25px;font-weight:bold}
+  footer ul{list-style:none;background-color:#472D48;border-image:none;border-style:none;color:#fff}
+  .float{display:flex;justify-content:center;float:inherit}
+  .float1{justify-content:center;float:inline-start}
+  .icons{margin-top:80px;margin-bottom:5px}
+  .titulos{font-weight:bold}
+  .titulo{font-weight:bold}
+  
+
+
+
+
+
+
